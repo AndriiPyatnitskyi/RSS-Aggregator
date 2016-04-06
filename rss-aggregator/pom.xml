@@ -3,5 +3,14 @@
   <groupId>com.apyatnitskiy</groupId>
   <artifactId>rss-aggregator</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-maven-plugin</artifactId>
+        <version>9.3.8.v20160314</version>
+      </plugin>
+    </plugins>
+  </build>
   <packaging>war</packaging>
 </project>
